@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 from flask             import Flask, request, Response
 import sys
-from api.empresa.empresa import PredictEmprestimo
+from empresa.empresa import PredictEmprestimo
 import os
 
 # loading model
