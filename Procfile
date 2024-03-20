@@ -1,1 +1,1 @@
-web: python handler.py
+web: gunicorn app:app
